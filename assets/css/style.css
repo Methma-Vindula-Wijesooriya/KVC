@@ -102,3 +102,15 @@ body {
     border-radius: 25px;
     margin: -150px 0px 0px 64px;
 }
+
+.mv-market {
+    text-align: center;
+    margin: 100px 233px;
+}
+
+.mv-img-map img {
+    object-fit: cover;
+    margin: -139px 0px 0px 80px;
+    text-align: center;
+    width: 1000px;
+}
