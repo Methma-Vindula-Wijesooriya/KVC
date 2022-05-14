@@ -1,10 +1,14 @@
 body {
-    margin: 20px 200px 0px 200px;
+    margin: 20px 200px 0px 50px;
     background-color: #ffffff;
 }
 
-.first {
-    margin: 100px 0px;
+.mv-padding {
+    padding: 4% 0%;
+}
+
+.mv-margin {
+    margin: 0% 0% 0% 12%;
 }
 
 .mv-sub-heading {
@@ -23,30 +27,31 @@ body {
     background-color: #e12129;
     display: inline-block;
     border: none;
-    padding: 9px 32px 10px 32px;
+    padding: 10px 40px 10px 40px;
     border-radius: 25px;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 10px;
     outline: none !important;
     box-shadow: 0px 2px 13px -5px #0000008c;
 }
 
 .mv-details {
-    margin: 20px 0px 58px 0px;
+    margin: 20px 0px 45px 0px;
     font-size: 12px;
+    padding: 0px 34px 0px 0px;
 }
 
 .img-building img {
     object-fit: cover;
-    width: 300px;
+    width: 50%;
     height: 550px;
     border-radius: 25px;
     margin: -67px 0px 0px 81px;
 }
 
 .mv-home {
-    background-image: linear-gradient( to right, #c0c72a, #017f00);
-    color: #ffffff;
+    background-image: linear-gradient( 135deg, #c0c72a, #017f00 50%);
+    color: #ffffff!important;
 }
 
 .mv-box {
@@ -62,7 +67,6 @@ body {
 
 .mv-img-txt {
     position: relative;
-    margin: 0px 0px 90px 0px;
 }
 
 .mv-people,
@@ -88,7 +92,7 @@ body {
 
 .mv-img-dishes img {
     object-fit: cover;
-    width: 131px;
+    width: 180px;
     height: 190px;
     border-radius: 25px;
     position: relative;
@@ -105,12 +109,171 @@ body {
 
 .mv-market {
     text-align: center;
-    margin: 100px 233px;
+    margin: 0px 233px;
 }
 
 .mv-img-map img {
     object-fit: cover;
-    margin: -139px 0px 0px 80px;
     text-align: center;
-    width: 1000px;
+    width: 100%;
+}
+
+.mv-footer {
+    background-color: #014701;
+}
+
+.mv-sub-heading-news-events {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    margin: 0% 24%;
+}
+
+.mv-heading-news-events {
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    color: #ffffff;
+    margin: 0% 23%;
+}
+
+.mv-news-events {
+    padding: 10% 0% 30% 0%;
+}
+
+.mv-view-all {
+    padding: 16% 0% 0% 54%;
+}
+
+.mv-events-news-slick-box {
+    background-color: #ffffff;
+    float: left;
+    text-align: center;
+    margin: 21% 0% 28% -7%;
+    width: 13%;
+}
+
+.mv-events-news-slick {
+    padding: 0px 0px 0px 31px;
+    display: inline;
+    width: 80%;
+    position: absolute;
+    margin: -11% 0% 0% 7%;
+}
+
+.mv-color-box {
+    background-image: linear-gradient( 135deg, #c0c72a, #017f00 50%);
+    height: 370px;
+}
+
+.mv-position {
+    position: relative;
+}
+
+.slick-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 198px;
+}
+
+.mv-padding-extra {
+    padding: 20% 0% 0% 0%;
+}
+
+.slick-slide {
+    margin: -50px 10px;
+}
+
+.slick-next {
+    top: 25%!important;
+    right: 4px!important;
+}
+
+.slick-prev {
+    top: 25%!important;
+    left: -10px!important;
+    position: absolute!important;
+}
+
+.slick-list {
+    margin: 0 -27px;
+    border-radius: 25px;
+    box-shadow: -7px 2px 13px -5px #0000008c;
+}
+
+.slick-heading {
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    color: #3e3e3e;
+    text-align: left;
+}
+
+.slick-details {
+    font-size: 75%;
+    text-align: left;
+}
+
+.slick-details-padding {
+    margin: 5% 10%;
+}
+
+.mv-slick-banner-one {
+    background-size: cover;
+    width: 100%;
+    height: 859px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-slider-overlay {
+    background-color: #00000082;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.slick-containt {
+    position: absolute;
+    z-index: 9;
+    color: #ffffff;
+    margin: 17% 0% 0% 0%;
+    padding: 0% 46% 0% 5%;
+}
+
+.first {
+    padding: 0% 0% 30% 0%;
+}
+
+.kvc-logo img {
+    width: 20%;
+    position: absolute;
+    margin: -7px 0px 0px -653px
+}
+
+.mv-navi {
+    position: relative;
+}
+
+.mv-navi-bar {
+    position: absolute;
+    margin: 25px 0px 0px 752px;
+    z-index: 9;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.mv-nav-heading {
+    color: #ffffff!important;
+    font-family: 'Roboto Slab', serif;
+    font-size: 58px;
+}
+
+.slick-dots {
+    top: 600px;
+    right: 600px;
 }
