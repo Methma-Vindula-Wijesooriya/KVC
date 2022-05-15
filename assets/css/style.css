@@ -283,7 +283,7 @@ body {
     background-color: #ffffff;
     float: left;
     text-align: center;
-    /* margin: 21% 0% 28% -7%; */
+    height: 376px;
 }
 
 .mv-navi-slick {
@@ -298,4 +298,42 @@ body {
 .navi-slick-img img {
     width: 77%;
     margin: 0% 11%;
+}
+
+.btn-hide-red {
+    margin: 11% 20%;
+}
+
+.mv-hover-header {
+    padding: 13% 20%;
+}
+
+.mv-hover-details {
+    padding: 0% 19%;
+}
+
+.hide-one {
+    background-image: linear-gradient( 135deg, #c0c72a, #017f00 50%);
+    height: 376px;
+    z-index: 1;
+    display: none!important;
+}
+
+.mv-box-one:hover+.hide-one {
+    display: block!important;
+}
+
+.mv-box-one:hover {
+    display: none!important;
+}
+
+.mv-hover-header {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.mv-hover-details {
+    color: white;
+    font-size: 13px;
 }
