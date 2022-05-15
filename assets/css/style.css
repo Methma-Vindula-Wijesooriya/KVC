@@ -179,11 +179,6 @@ body {
     padding: 20% 0% 0% 0%;
 }
 
-
-/* .slick-slide {
-    margin: -50px 10px;
-} */
-
 .mv-navi-slick .slick-list,
 .mv-events-news-slick .slick-list {
     margin: 0 -27px;
@@ -192,11 +187,11 @@ body {
 }
 
 .mv-events-news-slick .slick-next {
-    top: 25%!important;
+    top: 37%!important;
 }
 
 .mv-events-news-slick .slick-prev {
-    top: 25%!important;
+    top: 37%!important;
     left: -10px!important;
 }
 
@@ -243,7 +238,7 @@ body {
     padding: 0% 46% 0% 5%;
 }
 
-.first {
+.navi-section {
     padding: 0% 0% 30% 0%;
 }
 
@@ -289,7 +284,7 @@ body {
 .mv-navi-slick {
     padding: 0px 14px;
     display: inline;
-    width: 64%;
+    width: 58%;
     height: 202px;
     position: absolute;
     margin: -14% 17%;
@@ -336,4 +331,97 @@ body {
 .mv-hover-details {
     color: white;
     font-size: 13px;
+}
+
+.mv-nav-slick-heading,
+.mv-nav-slick-details {
+    text-align: center;
+}
+
+.mv-navi-slick .slick-next {
+    top: 87%!important;
+}
+
+.mv-navi-slick .slick-prev {
+    top: 87%!important;
+}
+
+@media (max-width: 992px) {
+    .mv-navi-slick-box {
+        height: 60%;
+    }
+    .mv-navi-slick {
+        width: 100%;
+        position: unset;
+        margin: 0% 0%;
+        height: auto;
+    }
+    .navi-section {
+        padding: 0% 0% 0% 0%;
+    }
+    .mv-img-txt {
+        margin: 17px 0px 25px 0px;
+    }
+    .mv-box {
+        width: 45%;
+        margin: 57px 0px 0px 0px;
+    }
+    .img-building img {
+        width: 79%;
+        height: 494px;
+        margin: 0px 0px 0px 65px;
+    }
+    .mv-img-dishes img {
+        width: 129px;
+        height: 182px;
+        margin: -80px 0px 0px 196px;
+    }
+    .mv-margin {
+        margin: 0% 0% 0% 8%;
+    }
+    .mv-details {
+        margin: 20px 0px 29px 0px;
+    }
+    .mv-heading-news-events {
+        margin: 0% 14%;
+    }
+    .mv-color-box {
+        height: 230px;
+        margin: 0px 0px 260px 0px;
+    }
+    .mv-events-news-slick {
+        padding: 0px 0px 0px 0px;
+        width: 100%;
+        height: auto;
+        position: unset;
+        margin: 9% 0% 0% 0%;
+    }
+    .mv-view-all {
+        padding: 2% 0% 0% 11%;
+    }
+    .mv-news-events {
+        padding: 10% 0% 0% 0%;
+    }
+    .mv-market {
+        margin: 0px 0px 0px 0px;
+    }
+    .kvc-logo img {
+        width: 10%;
+        position: unset;
+        margin: 0px 0px 0px 0px;
+    }
+    .mv-navi-bar {
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        z-index: 9;
+    }
+}
+
+@media (min-width: 993px) and (max-width:1192) {
+    .kvc-logo img {
+        width: 26%;
+        position: absolute;
+        margin: 0px 0px 0px -455px;
+    }
 }
