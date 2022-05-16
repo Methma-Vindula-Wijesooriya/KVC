@@ -231,7 +231,7 @@ p {
     align-items: center;
     border-radius: 100%;
     right: -56px;
-    top: 117px;
+    top: 46%;
 }
 
 .mv-events-news-slick .slick-prev {
@@ -244,7 +244,7 @@ p {
     align-items: center;
     border-radius: 100%;
     left: -58px;
-    top: 117px;
+    top: 46%;
     z-index: 999;
 }
 
@@ -403,6 +403,7 @@ p {
     border-radius: 100%;
     left: -38px;
     z-index: 999;
+    top: 88%;
 }
 
 .navi-section .mv-navi-slick .slick-next {
@@ -415,6 +416,7 @@ p {
     align-items: center;
     border-radius: 100%;
     right: -38px;
+    top: 88%;
 }
 
 .slick-next:before,
@@ -501,21 +503,20 @@ p {
         margin: 0% 14%;
     }
     .mv-color-box {
-        height: 230px;
+        height: 355px;
         margin: 0px 0px 260px 0px;
     }
     .mv-events-news-slick {
-        padding: 0px 0px 0px 0px;
-        width: 96%;
+        padding: 0;
         height: auto;
         position: unset;
-        margin: 9% 0% 0% 0%;
+        margin: 15px auto;
     }
     .mv-view-all {
         padding: 2% 0% 0% 11%;
     }
     .mv-news-events {
-        padding: 10% 0% 0% 0%;
+        padding: 0% 0% 0% 0%;
     }
     .mv-market {
         margin: 0px 0px 0px 0px;
@@ -539,20 +540,45 @@ p {
         height: 100%;
     }
     .navbar-toggler {
-        background: #80808052;
+        border: 1px solid gray !important;
     }
-    .navi-section .mv-navi-slick .slick-prev,
-    .mv-events-news-slick .slick-prev {
-        left: 0px;
+    .navi-section .mv-navi-slick .slick-prev {
+        left: 5px;
+        top: 48%;
     }
-    .navi-section .mv-navi-slick .slick-next,
-    .mv-events-news-slick .slick-next {
+    .navi-section .mv-navi-slick .slick-next {
         right: 0px;
+        top: 48%;
+    }
+    .mv-events-news-slick .slick-prev {
+        left: -51px;
+        top: 39%;
+    }
+    .mv-events-news-slick .slick-next {
+        right: -57px;
+        top: 39%;
     }
     .mv-events-news-slick-box {
         width: 100%;
     }
     .mv-padding-extra {
         padding: 29% 0% 0% 0%;
+    }
+    .mv-nav-heading {
+        font-size: 40px;
+        line-height: 54px;
+    }
+    .mv-banner-slick .slick-containt {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 20px
+    }
+    .mv-padding {
+        padding: 45px 0%;
+    }
+    .mv-padding-extra {
+        padding: 0;
     }
 }
