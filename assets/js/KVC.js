@@ -44,6 +44,8 @@ $('.mv-navi-slick').slick({
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 3,
+    autoplay: true,
+    autoplaySpeed: 3500,
     responsive: [{
             breakpoint: 1024,
             settings: {

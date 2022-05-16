@@ -386,14 +386,6 @@ p {
     text-align: center;
 }
 
-.mv-navi-slick .slick-next {
-    top: 87%!important;
-}
-
-.mv-navi-slick .slick-prev {
-    top: 87%!important;
-}
-
 .navi-section .slick-dots li.slick-active button:before,
 .navi-section .slick-dots li button:before {
     opacity: .75;
@@ -514,7 +506,7 @@ p {
     }
     .mv-events-news-slick {
         padding: 0px 0px 0px 0px;
-        width: 100%;
+        width: 96%;
         height: auto;
         position: unset;
         margin: 9% 0% 0% 0%;
@@ -529,14 +521,38 @@ p {
         margin: 0px 0px 0px 0px;
     }
     .kvc-logo img {
-        width: 10%;
+        width: 100%;
         position: unset;
         margin: 0px 0px 0px 0px;
     }
     .mv-navi-bar {
-        position: absolute;
+        position: relative;
         top: 0%;
-        left: 10%;
+        left: 0;
         z-index: 9;
+        background: white;
+    }
+    .navbar-brand {
+        width: 20%
+    }
+    .hide-one {
+        height: 100%;
+    }
+    .navbar-toggler {
+        background: #80808052;
+    }
+    .navi-section .mv-navi-slick .slick-prev,
+    .mv-events-news-slick .slick-prev {
+        left: 0px;
+    }
+    .navi-section .mv-navi-slick .slick-next,
+    .mv-events-news-slick .slick-next {
+        right: 0px;
+    }
+    .mv-events-news-slick-box {
+        width: 100%;
+    }
+    .mv-padding-extra {
+        padding: 29% 0% 0% 0%;
     }
 }
