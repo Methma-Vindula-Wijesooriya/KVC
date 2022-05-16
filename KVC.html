@@ -27,6 +27,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
     <!-- slick css -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer"
@@ -44,14 +48,20 @@
 
 
 <body>
-
     <div class="mv-navi-bar ">
-        <div class="kvc-logo">
-            <img src="assets/images/logo.png">
-        </div>
-        <nav class="navbar navbar-expand-lg  ">
-            <div class="collapse navbar-collapse" id="navbarNav">
+        <nav class="navbar navbar-expand-lg">
 
+            <a class="navbar-brand" href="#">
+                <div class="kvc-logo">
+                    <img src="assets/images/logo.png">
+                </div>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item ">
                         <a class="nav-link" href="#">Home </a>
@@ -78,12 +88,11 @@
             </div>
         </nav>
     </div>
-    </nav>
+
 
     <section class="navi-section">
         <div class=" mv-navi ">
             <div class="mv-banner-slick ">
-
                 <div class="mv-slick-banner-one " style="background-image: url( 'assets/images/woman-cooking-kitchen.jpg'); ">
                     <div class="main-slider-overlay "></div>
                     <div class="slick-containt ">
@@ -135,7 +144,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
 
@@ -272,15 +280,13 @@
             </div>
         </div>
     </section>
-
     <script src="assets/js/KVC.js "></script>
-
 
     <section class="mv-padding mv-margin ">
         <div class="container ">
             <div class="row ">
-                <div class="col-lg-5 mv-aboutus ">
 
+                <div class="col-lg-5 mv-aboutus ">
                     <div class="mv-sub-heading ">ABOUT US</div>
 
                     <div class="mv-heading ">
@@ -298,27 +304,30 @@
                 </div>
 
                 <div class="col-lg-7 mv-img-txt ">
-
                     <div class="mv-box ">
                         <div class="mv-people ">
                             <img src="assets/images/people.jpg " width="50 ">
-                            <div>Lorem ipsum, dolor sit amet consectetur
+                            <div>
+                                <p>Lorem ipsum, dolor sit amet consectetur</p>
                             </div>
                         </div>
                         <div class="mv-home ">
                             <img src="assets/images/home.png " width="50 ">
-                            <div> Quibusdam tempora, distinctio, consequatur </div>
+                            <div>
+                                <p> Quibusdam tempora, distinctio, consequatur </p>
+                            </div>
                         </div>
                         <div class="mv-people ">
                             <img src="assets/images/cup.jpg " width="50 ">
-                            <div>quaerat hic veritatis totam voluptates iusto </div>
+                            <div>
+                                <p>quaerat hic veritatis totam voluptates iusto</p>
+                            </div>
                         </div>
                     </div>
 
                     <div class="img-building ">
                         <img src="assets/images/office-skyscrapers-business-district.jpg ">
                     </div>
-
                 </div>
             </div>
         </div>
@@ -362,7 +371,6 @@
                     <div class="mv-btn-red ">
                         <button type="button " class="btn-df-red ">Our Product  &nbsp; &#8594;</button>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -371,6 +379,7 @@
     <section class="mv-padding mv-color-box ">
         <div class="container ">
             <div class="mv-position ">
+
                 <div class="row ">
                     <div class="col-lg-5 ">
                         <div class="mv-news-events ">
@@ -380,7 +389,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-lg-5 ">
                         <div class="mv-btn-red mv-view-all ">
                             <button type="button " class="btn-df-red ">View All &nbsp; &nbsp; &#8594;</button>
@@ -389,7 +397,6 @@
                 </div>
 
                 <div class=" mv-events-news-slick ">
-
                     <div class="mv-events-news-slick-box ">
                         <div class="slick-img ">
                             <img src="assets/images/father-son-learning-about-planting-together-home-while-wearing-medical-masks.jpg ">
@@ -404,7 +411,7 @@
                         </div>
                     </div>
 
-                    <div class="mv-events-news-slick-box ">
+                    <div class="mv-events-news-slick-box mv-slick-midle-one">
                         <div class="slick-img ">
                             <img src="assets/images/finger-conference-row-competition-training.jpg ">
                         </div>
@@ -418,7 +425,7 @@
                         </div>
                     </div>
 
-                    <div class="mv-events-news-slick-box ">
+                    <div class="mv-events-news-slick-box  mv-slick-midle-two">
                         <div class="slick-img ">
                             <img src="assets/images/father-son-learning-about-planting-together-home-while-wearing-medical-masks.jpg ">
                         </div>
@@ -463,7 +470,6 @@
             </div>
         </div>
     </section>
-
     <script src="assets/js/KVC.js "></script>
 
 
@@ -485,12 +491,9 @@
                 </div>
             </div>
         </div>
-
-
         <div class="mv-img-map ">
             <img src="assets/images/map.jpg ">
         </div>
-
     </section>
 
 
@@ -500,7 +503,6 @@
             </div>
         </div>
     </section>
-
 </body>
 
 </html>

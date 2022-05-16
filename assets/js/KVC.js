@@ -1,7 +1,7 @@
 $('.mv-events-news-slick').slick({
     infinite: true,
     slidesToShow: 4,
-    slidesToScroll: 3,
+    slidesToScroll: 5,
     responsive: [{
             breakpoint: 1024,
             settings: {
