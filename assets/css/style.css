@@ -23,22 +23,29 @@ body {
     color: #3e3e3e;
 }
 
+p {
+    font-size: 14px;
+    line-height: 28px
+}
+
 .btn-df-red {
     background-color: #e12129;
     display: inline-block;
     border: none;
-    padding: 10px 40px 10px 40px;
+    padding: 10px 10px 12px;
     border-radius: 25px;
     color: #ffffff;
-    font-size: 10px;
+    font-size: 14px;
     outline: none !important;
     box-shadow: 0px 2px 13px -5px #0000008c;
+    min-width: 180px;
 }
 
 .mv-details {
     margin: 20px 0px 45px 0px;
-    font-size: 12px;
     padding: 0px 34px 0px 0px;
+    font-size: 14px;
+    line-height: 26px;
 }
 
 .img-building img {
@@ -267,6 +274,7 @@ body {
     color: #ffffff!important;
     font-family: 'Roboto Slab', serif;
     font-size: 58px;
+    line-height: 72px;
 }
 
 .slick-dots {
@@ -296,7 +304,7 @@ body {
 }
 
 .btn-hide-red {
-    margin: 11% 20%;
+    margin: 11% 15%;
 }
 
 .mv-hover-header {
@@ -311,15 +319,20 @@ body {
     background-image: linear-gradient( 135deg, #c0c72a, #017f00 50%);
     height: 376px;
     z-index: 1;
-    display: none!important;
+    transform: translateY(100%);
+    position: absolute;
+    top: 0;
+    transition: 0.5s;
 }
 
-.mv-box-one:hover+.hide-one {
-    display: block!important;
+.mv-navi-slick-box:hover .hide-one {
+    transform: translateY(0%);
+    top: 0;
+    transition: 0.5s;
 }
 
-.mv-box-one:hover {
-    display: none!important;
+.navi-section .mv-navi-slick-box {
+    position: relative;
 }
 
 .mv-hover-header {
@@ -346,7 +359,45 @@ body {
     top: 87%!important;
 }
 
-@media (max-width: 992px) {
+.navi-section .slick-dots li.slick-active button:before,
+.navi-section .slick-dots li button:before {
+    opacity: .75;
+    color: white;
+}
+
+.navi-section .mv-navi-slick .slick-prev {
+    background: white;
+    box-shadow: 0px 0px 28px -5px #00000057;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    left: -38px;
+    z-index: 999;
+}
+
+.navi-section .mv-navi-slick .slick-next {
+    background: white;
+    box-shadow: 0px 0px 28px -5px #00000057;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    right: -38px;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    font-family: monospace !important;
+    font-size: 40px !important;
+    color: black !important;
+}
+
+@media (max-width: 428px) {
     .mv-navi-slick-box {
         height: 60%;
     }
@@ -418,10 +469,18 @@ body {
     }
 }
 
-@media (min-width: 993px) and (max-width:1192) {
+@media (min-width: 993px) and (max-width:1190) {
     .kvc-logo img {
         width: 26%;
         position: absolute;
         margin: 0px 0px 0px -455px;
+    }
+    .mv-img-dishes img {
+        object-fit: cover;
+        width: 130px;
+        height: 190px;
+        border-radius: 25px;
+        position: relative;
+        margin: -80px 0px 0px 198px;
     }
 }
